@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:5000/api' });
+const API = axios.create({ baseURL: 'https://backend-amber-zeta-12.vercel.app/api' });
 
 // Attach token to every request
 API.interceptors.request.use((req) => {
